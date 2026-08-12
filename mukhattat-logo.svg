@@ -1,0 +1,69 @@
+<svg width="600" height="900" viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="600" height="900" fill="white"/>
+
+<!-- Main vertical line -->
+<path d="M220 40 L220 150 M220 200 L220 520"
+      stroke="#222"
+      stroke-width="6"
+      stroke-linecap="round"
+      fill="none"/>
+
+<!-- First node -->
+<circle cx="250" cy="170" r="55" fill="#df151c"/>
+
+<!-- First connection -->
+<path d="M250 225 C250 260 280 270 330 270 L430 270"
+      stroke="#222"
+      stroke-width="6"
+      fill="none"
+      stroke-linecap="round"/>
+
+
+<!-- Second node -->
+<circle cx="420" cy="330" r="55" fill="#df151c"/>
+
+
+<!-- Dashed flow arrow -->
+<path d="M420 385
+C420 430 350 400 300 450
+C270 480 270 520 270 540"
+stroke="#222"
+stroke-width="6"
+fill="none"
+stroke-linecap="round"
+stroke-dasharray="18 18"/>
+
+<!-- Arrow head -->
+<path d="M270 540 L255 515 M270 540 L285 515"
+stroke="#222"
+stroke-width="6"
+fill="none"
+stroke-linecap="round"/>
+
+
+<!-- Third node -->
+<circle cx="230" cy="610" r="55" fill="#df151c"/>
+
+
+<!-- Bottom connection -->
+<path d="M230 665
+C230 720 270 740 330 740
+L420 740"
+stroke="#222"
+stroke-width="6"
+fill="none"
+stroke-linecap="round"/>
+
+
+<!-- Fourth node -->
+<circle cx="430" cy="760" r="55" fill="#df151c"/>
+
+
+<!-- Bottom vertical line -->
+<path d="M485 820 L485 870"
+stroke="#222"
+stroke-width="6"
+stroke-linecap="round"/>
+
+</svg>
